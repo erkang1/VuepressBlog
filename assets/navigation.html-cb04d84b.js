@@ -1,0 +1,1 @@
+import{_ as a,W as t,X as n,Y as e,Z as o}from"./framework-ca1b293a.js";const c={},r=e("h1",{id:"导航网站",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#导航网站","aria-hidden":"true"},"#"),o(" 导航网站")],-1),s=[r];function _(i,d){return t(),n("div",null,s)}const l=a(c,[["render",_],["__file","navigation.html.vue"]]);export{l as default};

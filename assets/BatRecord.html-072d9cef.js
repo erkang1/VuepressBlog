@@ -1,0 +1,1 @@
+import{_ as t,W as a,X as c,Y as e,Z as r}from"./framework-ca1b293a.js";const o={},s=e("h1",{id:"批处理",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#批处理","aria-hidden":"true"},"#"),r(" 批处理")],-1),n=[s];function _(d,i){return a(),c("div",null,n)}const l=t(o,[["render",_],["__file","BatRecord.html.vue"]]);export{l as default};
