@@ -14,6 +14,7 @@ export default defineUserConfig({
         ],
     
   theme: hopeTheme({
+    logo: 'logo.png',
     plugins:{
       blog: true,
       autoCatalog: false,
@@ -27,7 +28,9 @@ export default defineUserConfig({
     sidebar:{
       "/Vue3ElementPlus笔记/": [
         "/Vue3ElementPlus笔记/1-创建程序.md",
-        "/Vue3ElementPlus笔记/2-登陆界面.md" 
+        "/Vue3ElementPlus笔记/2-登陆界面.md",
+        "/Vue3ElementPlus笔记/3-代码抽离.md",
+        "/Vue3ElementPlus笔记/4-注册界面.md" 
       ],
     },
     navbar: [
@@ -44,7 +47,10 @@ export default defineUserConfig({
       {
         text: "Vue3ElementPlus笔记",
         icon: "workingDirectory",
-        children: ["/Vue3ElementPlus笔记/1-创建程序.md","/Vue3ElementPlus笔记/2-登陆界面.md"],      
+        children: ["/Vue3ElementPlus笔记/1-创建程序.md",
+                   "/Vue3ElementPlus笔记/2-登陆界面.md",
+                   "/Vue3ElementPlus笔记/3-代码抽离.md",
+                   "/Vue3ElementPlus笔记/4-注册界面.md" ],      
       },
       // {
       //   text: "导航",
